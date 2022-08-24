@@ -12,8 +12,8 @@
     <header id="header-img">
         <nav id="nav-bar">
             <ul>
-                <li class="nav-link"><a href="#about-me">About</a></li>
-                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#about-container">About</a></li>
+                <li class="nav-link"><a href="#project">Projects</a></li>
                 <li class="nav-link"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,10 +22,10 @@
     <div id="welcome-section">
         <h1>Hello, I'm Jeffry Montallana</h1>
         <p>a full stack web developer</p>
-        <a href="#about-me"><i class="fa-solid fa-arrow-down fa-2xl"></i></a>
+        <a href="#about-container"><i class="fa-solid fa-arrow-down fa-2xl"></i></a>
     </div>
     <!-- About me -->
-    <div id="about-container">
+    <div id="about-container" name="about-container">
         <div id="about-me">
             <div id="about-image">
                 <img src="./image/image1.png" alt="">
@@ -33,9 +33,53 @@
             <div id="about-text">
                 <h1>About me</h1>
                 <p>I'm an aspiring full-stack web developer from San Jose Del Monte City, Bulacan. I just started learning to code at Zuitt bootcamp and I'm learning a lot in a short period of time. I love coding as a hobby and looking forward to do it full time.</p>
+                <p>
+                    <em>Skills: </em>
+                    <strong>HTML,</strong>
+                    <strong>CSS,</strong>
+                    <strong>Bootstrap,</strong>
+                    <strong>JavaScript,</strong>
+                    <strong>Express.JS,</strong>
+                    <strong>React.JS,</strong>
+                    <strong>Git,</strong>
+                    <strong>MongoDB,</strong>
+                    <strong>Postman</strong>
+                </p>
+                <div id="about-icons">
+                    <a href="https://www.facebook.com/jeffry.montallana" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                    <a href="https://gitlab.com/JMontallana" target="_blank"><i class="fa-brands fa-gitlab fa-2xl"></i></a>
+                    <a href="https://github.com/JMontallana" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/jeffry-montallana-1ba49a233/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </div>
             </div>
         </div>
     </div>
+    <!-- Projects -->
+    <section id="project">
+        <div>
+            <h1>My Projects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-tile-1">
+                <a href="https://jmontallana.github.io/Capstone1/" target="_blank"><img src="./image/image2.png" alt="Personal Portfolio"></a>
+                <a href="https://jmontallana.github.io/Capstone1/" target="_blank"><p id="project-title-1">Personal Portfolio</p></a>
+            </div>
+            <div class="project-tile-2">
+                <a href="https://e-commerce-frontend-a506nl8ec-1manteam.vercel.app/" target="_blank"><img src="./image/image3.png" alt="E-Commerce website"></a>
+                <a href="https://e-commerce-frontend-a506nl8ec-1manteam.vercel.app/" target="_blank"><p id="project-title-1">E-Commerce website</p></a>
+            </div>
+        </div>
+    </section>
+    <!-- end of project section -->
+    <section id="contact">
+        <div class="footer-container">
+            <h1>Let's start building</h1>
+            <p class="contact-p1">Contact me:</p>
+            <p><i class="fa-solid fa-mobile-screen"></i> mobile: 09455323407</p>
+            <p><i class="fa-solid fa-envelope"></i> email: jeffrymontallana28@gmail.com</p>
+            <footer>© Jeffry Montallana | All rights reserved 2022</footer>
+        </div>
+    </section>
 </body>
 <script src="https://kit.fontawesome.com/5c63598ced.js" crossorigin="anonymous"></script>
 </html>
