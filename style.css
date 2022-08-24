@@ -253,11 +253,11 @@ nav a:hover {
     }
 
     .project-tile-1 {
-        flex: 80%;
+        flex: 100%;
         margin: 1rem;
     }
     .project-tile-2 {
-        flex: 80%;
+        flex: 100%;
         margin: 6.5rem 1rem 1rem 1rem;
     }
 
